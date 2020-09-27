@@ -18,7 +18,7 @@ Install Sequelize-cli globally, so that you can run Sequelize command line opera
 	npm install -g sequelize-cli
 
 ### Environments
-When connecting to the database, Sequelize will use the 'development' environment by default, unless it detects an environment variable telling it otherwise (such as a custom ENV variable on a Heroku instance). This is defined in db/models/index.js, where the connection to the database is made:
+When connecting to the database, Sequelize will use the 'development' environment by default.
 
 	const env = process.env.NODE_ENV || 'development';
 
